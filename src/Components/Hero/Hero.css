@@ -43,6 +43,9 @@
   font-size: 22px;
   font-weight: 500;
 }
+.hero .hero-left .hero-latest-btn h3 {
+  margin-left: 30px;
+}
 .hero .hero-right {
   flex: 1;
   display: flex;
