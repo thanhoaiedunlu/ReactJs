@@ -1,3 +1,89 @@
-
+.product-display {
+  display: flex;
+  margin: 0px 170px;
+}
+.product-display .productdisplay-left {
+  display: flex;
+  gap: 17px;
+}
+.product-display .productdisplay-left .productdisplay-img-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.product-display .productdisplay-left .productdisplay-img-list img {
+  height: 163px;
+}
+.product-display .productdisplay-left .productdisplay-img .productdisplay-main-img {
+  width: 586px;
+  height: 700px;
+}
+.product-display .productdisplay-right {
+  margin: 0px 70px;
+  display: flex;
+  flex-direction: column;
+}
+.product-display .productdisplay-right h1 {
+  color: #3d3d3d;
+  font-size: 40px;
+  font-weight: 700;
+}
+.product-display .productdisplay-right .productdisplay-right-star {
+  display: flex;
+  align-items: center;
+  margin-top: 13px;
+  color: #1c1c1c;
+  font-size: 16px;
+}
+.product-display .productdisplay-right .productdisplay-right-price {
+  display: flex;
+  margin: 40px 0px;
+  gap: 30px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.product-display .productdisplay-right .productdisplay-right-price .productdisplay-right-price-new {
+  color: #FF4141;
+}
+.product-display .productdisplay-right .productdisplay-right-price .productdisplay-right-price-old {
+  color: #818181;
+  text-decoration: line-through;
+}
+.product-display .productdisplay-right .productdisplay-right-size {
+  margin-top: 55px;
+  color: #656565;
+  font-size: 20px;
+  font-weight: 600;
+}
+.product-display .productdisplay-right .productdisplay-right-size .productdisplay-right-sizes {
+  display: flex;
+  margin: 30px 0px;
+  gap: 20px;
+}
+.product-display .productdisplay-right .productdisplay-right-size .productdisplay-right-sizes div {
+  padding: 18px 24px;
+  background: #fbfbfb;
+  border: 1px solid #ebebeb;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.product-display .productdisplay-right button {
+  padding: 20px 40px;
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background: #FF4141;
+  margin-bottom: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.product-display .productdisplay-right .productdisplay-right-category {
+  margin-top: 10px;
+}
+.product-display .productdisplay-right .productdisplay-right-category span {
+  font-weight: 100;
+}
 
 /*# sourceMappingURL=ProductDisplay.css.map */
